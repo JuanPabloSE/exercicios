@@ -11,7 +11,7 @@ public class bee1021 {
         double n;
         n = sc.nextDouble();
 
-        // CONVERTENDO A VARIÁVEL *n* PARA CENTAVOS.
+        // CONVERTENDO A VARIÁVEL *n* PARA CENTAVOS - INTEIRO.
         int centavos = (int) (n * 100 + 0.5);
 
         //SAÍDA (NOTAS:)
