@@ -12,7 +12,7 @@ public class bee1021 {
         n = sc.nextDouble();
 
         // CONVERTENDO A VARIÁVEL *n* PARA CENTAVOS.
-        int centavos = (int) (n * 100);
+        int centavos = (int) (n * 100 + 0.5);
 
         //SAÍDA (NOTAS:)
         System.out.println("NOTAS:");
